@@ -27,7 +27,7 @@ window.widgetERC20Tokens = {
 }
 
 window.buildOptions = {
-  ownTokens: false, // Will be inited from window.widgetERC20Tokens
+  ownTokens: true, // Will be inited from window.widgetERC20Tokens
   addCustomERC20: true, // Allow user add custom erc20 tokens
   curEnabled: { // Or 'false' if enabled all
     btc: true,
@@ -35,5 +35,5 @@ window.buildOptions = {
     ltc: true,
     point: true,
   },
-  invoiceEnabled: false, // Allow create invoices
+  invoiceEnabled: true, // Allow create invoices
 }
