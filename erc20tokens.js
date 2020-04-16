@@ -1,12 +1,12 @@
 // mainnet-localhost
 
 window.widgetERC20Tokens = {
-  usdt: {
+  point: {
     address: '0x441b6E1AC5729C45323a9431335c1284157da82E',
     decimals: 18,
     fullName: 'Point'
   },
-  point: {
+  usdt: {
     address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
     decimals: 6,
     fullName: 'Usdt'
