@@ -1,5 +1,5 @@
 // mainnet-localhost
-/*
+
 window.widgetERC20Tokens = {
   usdt: {
     address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
@@ -27,8 +27,7 @@ window.buildOptions = {
   curEnabled: { // Or 'false' if enabled all
     btc: true,
     eth: true,
-    //ltc: true,
+    ltc: true,
   },
   invoiceEnabled: false, // Allow create invoices
 }
-*/
