@@ -1,11 +1,6 @@
 // mainnet-localhost
-
+/*
 window.widgetERC20Tokens = {
-  point: {
-    address: '0x441b6E1AC5729C45323a9431335c1284157da82E',
-    decimals: 18,
-    fullName: 'Point'
-  },
   usdt: {
     address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
     decimals: 6,
@@ -27,13 +22,12 @@ window.widgetERC20Tokens = {
 }
 
 window.buildOptions = {
-  ownTokens: true, // Will be inited from window.widgetERC20Tokens
+  ownTokens: false, // Will be inited from window.widgetERC20Tokens
   addCustomERC20: true, // Allow user add custom erc20 tokens
   curEnabled: { // Or 'false' if enabled all
     btc: true,
     eth: true,
-    ltc: true,
-    point: true,
   },
-  invoiceEnabled: true, // Allow create invoices
+  invoiceEnabled: false, // Allow create invoices
 }
+*/
